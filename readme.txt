@@ -37,4 +37,15 @@ Starndard Wordpress Plugin install.
 1. screenshot1.png description
  
 == Changelog ==
-= 0.1 =
+== 0.0 ==
+Project under development. Incomplete as of this initial commit.
+
+woocommerce-quote-tool.php = overwrite woocommerce templates, overwrite woo commerce template parts, overwrite add to cart button text in single product page and product archive page
+woocommerce/content-product.php = removed action "woocommerce_template_loop_price"
+woocommerce/cart/cart-totals.php = removed entire table displaying cart totals
+woocommerce/cart/cart.php = removed product price, product subtotal from each product listed in the cart
+woocommerce/checkout/form-checkout.php = the checkout form title changed from "Your Order" to "Items For Quote Request"
+woocommerce/checkout/review-order.php = product total column, product subtotal column, and cart total section removed
+woocommerce/signle-product/price.php = removed content of offers div
+woocommerce/single-product/add-to-cart/variable.php = "display:  none;" applied to .single_variation_wrap and .single_variation
+
